@@ -22,20 +22,26 @@ public class BoardController {
 
 	private BoardService service;
 
-	// 게시글 전체 목록
+	// 게시판 전체 목록
 	@GetMapping("/list")
 	public void list(Model model) {
 		log.info("list");
 		model.addAttribute("list", service.getList());
 	}
 
-	// 게시글 상세 조회
+	// 게시물 상세 조회
 	@GetMapping("/get")
 	public void get(@RequestParam("bno") Long bno, Model model) {
 		log.info("/get");
 		model.addAttribute("board", service.get(bno));
 	}
-
+	
+	// 게시물 등록 Form
+	@GetMapping("/register")
+	public void register() {
+		// 입력Form을 보여주는 역할을 하기때문에 별도의 처리 필요 X
+	}
+	
 	// 게시물 등록
 	@PostMapping("/register")
 	public String register(BoardDto board, RedirectAttributes rttr) {
@@ -55,7 +61,7 @@ public class BoardController {
 		return "redirect:/board/list";
 	}
 
-	// 게시글 삭제
+	// 게시물 삭제
 	@PostMapping("/remove")
 	public String remove(@RequestParam("bno") Long bno, RedirectAttributes rttr) {
 		log.info("remove : " + bno);

@@ -1,0 +1,13 @@
+package com.busanit.bbs.service;
+
+import java.util.List;
+
+import com.busanit.bbs.dto.BoardDto;
+
+public interface BoardService {
+
+	public void register(BoardDto board);
+
+	public List<BoardDto> getList();
+
+}
