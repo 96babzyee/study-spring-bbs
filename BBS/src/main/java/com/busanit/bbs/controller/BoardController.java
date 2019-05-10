@@ -29,7 +29,7 @@ public class BoardController {
 		model.addAttribute("list", service.getList());
 	}
 
-	// 게시물 상세 조회
+	// 특정 게시물 조회
 	@GetMapping("/get")
 	public void get(@RequestParam("bno") Long bno, Model model) {
 		log.info("/get");
