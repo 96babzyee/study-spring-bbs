@@ -184,14 +184,12 @@
 
 							$("#myModal").modal("show");
 						}
-						/* 모달창 jquery */
 
 						$("#regBtn").on("click", function() {
 
 							self.location = "/board/register";
 
 						});
-						/* 목록에서 버튼으로 이동하기 jquery */
 
 						var actionForm = $("#actionForm");
 
