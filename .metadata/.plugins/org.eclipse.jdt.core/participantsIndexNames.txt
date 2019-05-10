@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Workspace\study-spring-bbs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3194502392.index
+\BBS\src\main\java
+C:\Workspace\study-spring-bbs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3152260046.index
+\BBS\src\main\java
+C:\Workspace\study-spring-bbs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\259573611.index
+\BBS\src\main\java
+C:\Workspace\study-spring-bbs\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1757061670.index
+\BBS\src\main\java
