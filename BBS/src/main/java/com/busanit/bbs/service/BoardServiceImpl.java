@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.busanit.bbs.dto.BoardDto;
+import com.busanit.bbs.dto.Criteria;
 import com.busanit.bbs.mapper.BoardMapper;
 
 import lombok.AllArgsConstructor;
@@ -25,11 +26,16 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	// 전체 리스트를 가져옴
+	/*@Override
+	 public List<BoardDto> getList() {
+	 	log.info("getList..........");
+	 	return mapper.getList();
+	 }*/
 	@Override
-	public List<BoardDto> getList() {
-		log.info("getList..........");
-		return mapper.getList();
-	}
+	 public List<BoardDto> getList(Criteria cri) {
+	 	log.info("get list with criteria : " + cri);
+	 	return mapper.getListWithPaging(cri);
+	 }
 
 	// 특정한 게시물을 가져옴
 	@Override
@@ -50,6 +56,13 @@ public class BoardServiceImpl implements BoardService {
 	public boolean remove(Long bno) {
 		log.info("remove...." + bno);
 		return mapper.delete(bno) == 1;
+	}
+	
+	// myBatis 전체 데이터의 개수 처리
+	@Override
+	public int getTotal(Criteria cri) {
+		log.info("get total count");
+		return mapper.getTotalCount(cri);
 	}
 
 }

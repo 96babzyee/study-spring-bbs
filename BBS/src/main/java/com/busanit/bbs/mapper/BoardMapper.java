@@ -1,7 +1,9 @@
 package com.busanit.bbs.mapper;
 
 import java.util.List;
+
 import com.busanit.bbs.dto.BoardDto;
+import com.busanit.bbs.dto.Criteria;
 
 public interface BoardMapper {
 	public List<BoardDto> getList();
@@ -15,5 +17,9 @@ public interface BoardMapper {
 	public int delete(Long bno);
 	
 	public int update(BoardDto board);
+	
+	public List<BoardDto> getListWithPaging(Criteria cri);
+	
+	public int getTotalCount(Criteria cri);
 	
 }

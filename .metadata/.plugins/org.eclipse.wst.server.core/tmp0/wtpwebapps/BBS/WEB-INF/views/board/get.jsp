@@ -39,9 +39,10 @@
 				<button data-oper='modify' class="btn btn-default">수정하기</button>
 				<button data-oper='list' class="btn btn-info">목록으로</button>
 
-				<form id='operForm' action="/boad/modify" method="get">
-					<input type='hidden' id='bno' name='bno'
-						value='<c:out value="${board.bno}"/>'>
+				<form id='operForm' action="/board/modify" method="get">
+					<input type='hidden' id='bno' name='bno' value='<c:out value="${board.bno}"/>'>
+					<input type='hidden' name='pageNum' value='<c:out value="${cri.pageNum}"/>'>
+					<input type='hidden' name='amount' value='<c:out value="${cri.amount}"/>'>
 				</form>
 			</div>
 			<!--  end panel-body -->

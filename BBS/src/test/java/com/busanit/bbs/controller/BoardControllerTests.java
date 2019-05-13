@@ -85,7 +85,7 @@ public class BoardControllerTests {
 
 		log.info(resultPage);
 	}
-	
+	*/
 	@Test
 	public void testListPaging() throws Exception {
 
@@ -95,7 +95,7 @@ public class BoardControllerTests {
 				.param("amount", "50"))
 				.andReturn().getModelAndView().getModelMap());
 	}
-	*/
+	
 }
 
 
