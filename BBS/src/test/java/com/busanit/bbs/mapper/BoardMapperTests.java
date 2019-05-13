@@ -18,7 +18,7 @@ public class BoardMapperTests {
 
 	@Setter(onMethod_ = @Autowired)
 	private BoardMapper mapper;
-	/*
+	
 	@Test
 	public void testGetList() {
 
@@ -52,7 +52,7 @@ public class BoardMapperTests {
 		log.info(board);
 	}
 	
-	
+	/*
 	@Test
 	public void testRead() {
 
@@ -68,7 +68,7 @@ public class BoardMapperTests {
 
 		log.info("DELETE COUNT: " + mapper.delete(3L));
 	}
-	*/
+	
 	@Test
 	public void testUpdate() {
 
@@ -82,7 +82,7 @@ public class BoardMapperTests {
 		log.info("UPDATE COUNT: " + count);
 
 	}
-	/*
+	
 	@Test
 	public void testPaging() {
 

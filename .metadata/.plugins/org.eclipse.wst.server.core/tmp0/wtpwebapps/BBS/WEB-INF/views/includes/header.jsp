@@ -11,7 +11,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Spring 게시판 예제</title>
+<title>Spring 게시판</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="/resources/vendor/bootstrap/css/bootstrap.min.css"
@@ -61,7 +61,7 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">SB Admin v2.0</a>
+				<a class="navbar-brand" href="/">SB Admin v2.0</a>
 			</div>
 			<!-- /.navbar-header -->
 

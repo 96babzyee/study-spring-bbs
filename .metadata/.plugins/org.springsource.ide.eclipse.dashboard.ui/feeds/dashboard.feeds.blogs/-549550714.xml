@@ -5,7 +5,22 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-05-09T17:38:52Z</updated>
+  <updated>2019-05-10T07:59:00Z</updated>
+  <entry>
+    <title>Spring Framework 5.2.0.M2, 5.1.7, 5.0.14 and 4.3.24 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/05/10/spring-framework-5-2-0-m2-5-1-7-5-0-14-and-4-3-24-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>St?phane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2019-05-10:3670</id>
+    <updated>2019-05-10T07:59:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.2.0.M2&lt;/code&gt;, &lt;code&gt;5.1.7&lt;/code&gt;, &lt;code&gt;5.0.14&lt;/code&gt; and &lt;code&gt;4.3.24&lt;/code&gt; are available from &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; as well as Maven Central now.&lt;/p&gt;
+&lt;p&gt;First things first, the second milestone of Spring Framework 5.2 includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.2.0.M2"&gt;over 50 fixes and improvements&lt;/a&gt; with improved RSocket integration and initial support for reactive transactions (more on that in a follow-up blog post soon). Spring Framework &lt;code&gt;5.1.7&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.1.7.RELEASE"&gt;43 fixes and improvements&lt;/a&gt; and is a recommended upgrade for all &lt;code&gt;5.x&lt;/code&gt; users.&lt;/p&gt;
+&lt;p&gt;Finally, we&amp;rsquo;ve also released Spring Framework &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.0.14.RELEASE"&gt;&lt;code&gt;5.0.14&lt;/code&gt;&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v4.3.24.RELEASE"&gt;&lt;code&gt;4.3.24&lt;/code&gt;&lt;/a&gt; with a few selected fixes.&lt;/p&gt;
+&lt;p&gt;Once additional releases of the portfolio are available, we will release the Spring Boot counterparts by mid next week, stay tuned!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.1.7.RELEASE/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>A Bootiful Podcast: Kotlin team engineer Roman Elisarov</title>
     <link rel="alternate" href="https://spring.io/blog/2019/05/09/a-bootiful-podcast-kotlin-team-engineer-roman-elisarov" />
@@ -699,48 +714,5 @@ and Spring Session 2.1.&lt;/p&gt;
 &lt;p&gt;Detailed changes can be found here: &lt;a href="https://github.com/spring-projects/sts4/wiki/Changelog#2019-04-18-421-release"&gt;https://github.com/spring-projects/sts4/wiki/Changelog#2019-04-18-421-release&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Spring Tools 4.2.2 is scheduled to be released in late May 2019.&lt;/p&gt;
 &lt;p&gt;Enjoy!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>CVE-2019-3799: Spring Cloud Config 2.1.2, 2.0.4, 1.4.6 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/04/17/cve-2019-3799-spring-cloud-config-2-1-2-2-0-4-1-4-6-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Spencer Gibb</name>
-    </author>
-    <id>tag:spring.io,2019-04-16:3649</id>
-    <updated>2019-04-17T12:50:03Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;We have released Spring Cloud Config 2.1.2, 2.0.4, and 1.4.6 to address &lt;a href="https://pivotal.io/security/cve-2019-3799"&gt;CVE-2019-3799: Directory Traversal with spring-cloud-config-server&lt;/a&gt;. Please review the information in the CVE report and upgrade immediately.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;These fixes will be included in the next release of the respective Spring Cloud release train.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; To override the version in Maven, update the dependency to include the version, such as:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-xml" data-lang="xml"&gt;&amp;lt;dependency&amp;gt;
-	&amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;
-	&amp;lt;artifactId&amp;gt;spring-cloud-config-server&amp;lt;/artifactId&amp;gt;
-	&amp;lt;version&amp;gt;2.1.2.RELEASE&amp;lt;/version&amp;gt;
-&amp;lt;/dependency&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Similarly, in Gradle:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="listingblock"&gt;
-&lt;div class="content"&gt;
-&lt;pre class="prettyprint highlight"&gt;&lt;code class="language-groovy" data-lang="groovy"&gt;dependencies {
-	compile('org.springframework.cloud:spring-cloud-config-server:2.1.2.RELEASE')
-}&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-cloud-config/"&gt;Project Page&lt;/a&gt; |
-&lt;a href="https://github.com/spring-cloud/spring-cloud-config/"&gt;GitHub&lt;/a&gt; |
-&lt;a href="http://stackoverflow.com/questions/tagged/spring-cloud"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>

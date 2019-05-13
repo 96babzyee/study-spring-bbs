@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BoardMapperTests" project="BBS" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.busanit.bbs.mapper.BoardMapperTests" time="0.345">
+    <testcase name="testGetList" classname="com.busanit.bbs.mapper.BoardMapperTests" time="0.335"/>
+    <testcase name="testInsert" classname="com.busanit.bbs.mapper.BoardMapperTests" time="0.01"/>
+  </testsuite>
+</testrun>
