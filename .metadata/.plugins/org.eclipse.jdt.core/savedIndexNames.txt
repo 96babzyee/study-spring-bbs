@@ -52,4 +52,3 @@ INDEX VERSION 1.131+C:\Workspace\study-spring-bbs\.metadata\.plugins\org.eclipse
 929999071.index
 3702974046.index
 2327184759.index
-3324201854.index
