@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="junit" key="selection"/>
+		<item value="getList" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="junit"/>
-			<item value="jum"/>
-			<item value="lom"/>
-			<item value="ser"/>
-			<item value="lombok"/>
-			<item value="hikariCP"/>
-			<item value="hikari"/>
-			<item value="json"/>
-			<item value="update"/>
-			<item value="serv"/>
-			<item value="oracle"/>
-			<item value="jstl"/>
-			<item value="수정"/>
-			<item value="ad"/>
-			<item value="boot"/>
+			<item value="getList"/>
+			<item value="mybatis"/>
+			<item value="spring-tx"/>
+			<item value="spring-jdbc"/>
+			<item value="aspect"/>
+			<item value="as"/>
+			<item value="aj"/>
+			<item value="showReplyPage"/>
+			<item value="showReply"/>
+			<item value="getlist"/>
+			<item value="get"/>
+			<item value="time"/>
+			<item value="display"/>
+			<item value="script"/>
+			<item value="chat"/>
 		</list>
 		<list key="replacehistory">
 		</list>

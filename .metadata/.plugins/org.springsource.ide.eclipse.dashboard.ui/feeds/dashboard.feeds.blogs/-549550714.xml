@@ -5,7 +5,21 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-05-14T21:47:19Z</updated>
+  <updated>2019-05-15T00:00:00Z</updated>
+  <entry>
+    <title>Spring Tips: Spring Batch and Apache Kafka</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/05/15/spring-tips-spring-batch-and-apache-kafka" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-05-15:3680</id>
+    <updated>2019-05-15T00:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;a href="http://twitter.com/SpringTipsLive"&gt;&lt;em&gt;Spring Tips&lt;/em&gt; (@SpringTipsLive)&lt;/a&gt;! In this installment we look at the &lt;em&gt;just-landed&lt;/em&gt; community contribution in Spring Batch adding support for Apache Kafka. This new support offers some tantalizing opportunities to bridge batch and streaming workloads. Stage large writes to backend warehouses with Kafka and drain the stream with Spring Batch. Load large amounts of data from existing datastores and funnel it into stream processing pipelines. And the possibilities become even more interesting when you consider &lt;a href="https://spring.io/blog/2016/10/13/spring-tips-a-gentle-introduction-to-spring-integration"&gt;Spring Integration&lt;/a&gt;, &lt;a href="https://spring.io/blog/2016/11/09/spring-tips-spring-cloud-stream"&gt;Spring Cloud Stream&lt;/a&gt;, &lt;a href="https://spring.io/blog/2018/04/04/spring-tips-spring-cloud-stream-kafka-streams"&gt;Spring Cloud Stream Kafka Streams&lt;/a&gt;, and &lt;a href="https://spring.io/blog/2016/11/16/spring-tips-spring-cloud-data-flow"&gt;Spring Cloud Data Flow&lt;/a&gt;. If you want a quick primer on Spring Batch-basics you might like this &lt;a href="https://spring.io/blog/2017/02/01/spring-tips-spring-batch"&gt;Spring Tip installment on Spring Batch&lt;/a&gt; from - &lt;em&gt;gasp&lt;/em&gt;! - two years ago!&lt;/p&gt;
+&lt;p&gt;speaker: &lt;a href="http://twitter.com/Starbuxman"&gt;Josh Long (@starbuxman) &lt;/a&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/UJesCn731G4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - May 14th, 2019</title>
     <link rel="alternate" href="https://spring.io/blog/2019/05/14/this-week-in-spring-may-14th-2019" />
@@ -814,20 +828,5 @@ and Spring Session 2.1.&lt;/p&gt;
 &amp;lt;/dependency&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href="https://spring.io/projects/spring-cloud-open-service-broker"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-cloud/spring-cloud-open-service-broker"&gt;GitHub&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-cloud-open-service-broker/docs/2.1.2.RELEASE/reference/html5"&gt;Reference Doc&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-cloud-open-service-broker/docs/2.1.2.RELEASE/apidocs/"&gt;API Doc&lt;/a&gt; &lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Spring Batch and Spring Cloud Task lead Michael Minella</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/04/26/a-bootiful-podcast-spring-batch-and-spring-cloud-task-lead-michael-minella" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2019-04-26:3658</id>
-    <updated>2019-04-26T01:05:00Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! In this episode we talk to fellow Apress author, Spring R&amp;amp;D manager, Spring Batch and Spring Cloud Task lead Michael Minella about all things task and batch processing with Spring, South Africa, and so much more. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="http://twitter.com/michaelminella"&gt;Michael Minella on Twitter (@michaelminella)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/611519967&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;</content>
   </entry>
 </feed>
