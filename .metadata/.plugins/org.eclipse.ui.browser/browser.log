@@ -3,3 +3,32 @@
 5월 10, 2019 16:00:49.73 [13364:11444:0510/160049.733:ERROR:browser_process_sub_thread.cc(217)] Waited 245 ms for network service
 5월 10, 2019 16:00:49.79 
 5월 10, 2019 16:00:49.80 KLIB_SelfTest return : KLR_OK
+
+5월 17, 2019 10:15:56.13 NEW SESSION
+5월 17, 2019 10:15:56.13 [3576:14528:0517/101556.115:ERROR:browser_process_sub_thread.cc(217)] Waited 34 ms for network service
+5월 17, 2019 10:15:56.17 
+5월 17, 2019 10:15:56.18 KLIB_SelfTest return : KLR_OK
+5월 17, 2019 10:20:00.88 [6140:7084:0517/102000.880:ERROR:browser_process_sub_thread.cc(217)] Waited 41 ms for network service
+5월 17, 2019 10:20:00.92 
+5월 17, 2019 10:20:00.92 KLIB_SelfTest return : KLR_OK
+
+5월 17, 2019 10:39:41.04 NEW SESSION
+5월 17, 2019 10:39:41.04 [14988:13940:0517/103941.045:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+5월 17, 2019 10:39:54.85 [14988:13940:0517/103954.858:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+5월 17, 2019 10:40:00.51 [14988:13940:0517/104000.515:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+5월 17, 2019 10:40:09.92 [14988:13940:0517/104009.924:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+5월 17, 2019 10:40:14.26 [14988:13940:0517/104014.267:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+5월 17, 2019 10:40:21.67 [14988:13940:0517/104021.676:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+5월 17, 2019 10:40:24.54 [14988:13940:0517/104024.546:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+5월 17, 2019 10:40:41.49 [14988:13940:0517/104041.498:ERROR:platform_sensor_reader_win.cc(244)] NOT IMPLEMENTED
+5월 17, 2019 10:41:08.45 [14988:5820:0517/104108.449:ERROR:browser_process_sub_thread.cc(217)] Waited 106 ms for network service
+5월 17, 2019 10:41:08.50 
+5월 17, 2019 10:41:08.50 KLIB_SelfTest return : KLR_OK
+5월 17, 2019 11:09:32.78 [2388:15716:0517/110932.780:ERROR:browser_process_sub_thread.cc(217)] Waited 144 ms for network service
+5월 17, 2019 11:09:32.83 
+5월 17, 2019 11:09:32.83 KLIB_SelfTest return : KLR_OK
+
+5월 17, 2019 11:13:44.58 NEW SESSION
+5월 17, 2019 11:13:44.58 [9768:8464:0517/111344.587:ERROR:browser_process_sub_thread.cc(217)] Waited 127 ms for network service
+5월 17, 2019 11:13:44.63 
+5월 17, 2019 11:13:44.63 KLIB_SelfTest return : KLR_OK
