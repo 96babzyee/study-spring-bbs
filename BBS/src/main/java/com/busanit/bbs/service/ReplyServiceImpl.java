@@ -29,7 +29,7 @@ public class ReplyServiceImpl implements ReplyService {
 	@Override
 	public int register(ReplyDto dto) {
 		log.info("register..." + dto);
-		boardMapper.updateReplyDnt(dto.getBno(), 1);
+		boardMapper.updateReplyCnt(dto.getBno(), 1);
 		
 		return mapper.insert(dto);
 	}
@@ -54,7 +54,7 @@ public class ReplyServiceImpl implements ReplyService {
 		log.info("remove..." + rno);
 		
 		ReplyDto dto = mapper.select(rno);
-		boardMapper.updateReplyDnt(dto.getBno(), -1);
+		boardMapper.updateReplyCnt(dto.getBno(), -1);
 		
 		return mapper.delete(rno);
 	}
